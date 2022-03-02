@@ -1,210 +1,254 @@
 {
-    "locations": [
-        {
-            "id": 1,
-            "address": "123 No Way",
-            "squareFootage": 950,
-            "handicapAccessible": true
-        },
-        {
-            "id": 2,
-            "address": "456 Yes Way",
-            "squareFootage": 650,
-            "handicapAccessible": false
-        },
-        {
-            "id": 3,
-            "address": "789 Go A Way",
-            "squareFootage": 700,
-            "handicapAccessible": true
-        },
-        {
-            "id": 4,
-            "address": "1011 Stay Lane",
-            "squareFootage": 1200,
-            "handicapAccessible": true
-        }
-    ],
-    "locationProducts": [
-        {
-            "id": 1,
-            "locationId": 1,
-            "productId": 1
-        },
-        {
-            "id": 2,
-            "locationId": 1,
-            "productId": 8
-        },
-        {
-            "id": 3,
-            "locationId": 2,
-            "productId": 7
-        },
-        {
-            "id": 4,
-            "locationId": 3,
-            "productId": 2
-        },
-        {
-            "id": 5,
-            "locationId": 4,
-            "productId": 3
-        },
-        {
-            "id": 6,
-            "locationId": 4,
-            "productId": 6
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "fullName": "Bill Murray",
-            "locationId": 1,
-            "fullTime": true
-        },
-        {
-            "id": 2,
-            "fullName": "Freddie Mercury",
-            "locationId": 4,
-            "fullTime": false
-        },
-        {
-            "id": 3,
-            "fullName": "Michelle Obama",
-            "locationId": 2,
-            "fullTime": true
-        },
-        {
-            "id": 4,
-            "fullName": "Toby Keith",
-            "locationId": 3,
-            "fullTime": false
-        },
-        {
-            "id": 5,
-            "fullName": "Billie Ellish",
-            "locationId": 4,
-            "fullTime": true
-        },
-        {
-            "id": 6,
-            "fullName": "Ricky Martin",
-            "locationId": 1,
-            "fullTime": true
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "fullName": "Shrek"
-        },
-        {
-            "id": 2,
-            "fullName": "Donkey"
-        },
-        {
-            "id": 3,
-            "fullName": "Fiona"
-        },
-        {
-            "id": 4,
-            "fullName": "Lord Farquade"
-        },
-        {
-            "id": 5,
-            "fullName": "Gingerbread Man"
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "name": "Milky Way",
-            "productTypeId": 1
-        },
-        {
-            "id": 2,
-            "name": "Snickers",
-            "productTypeId": 1
-        },
-        {
-            "id": 3,
-            "name": "Rolo",
-            "productTypeId": 1
-        },
-        {
-            "id": 4,
-            "name": "Twizzler",
-            "productTypeId": 3
-        },
-        {
-            "id": 5,
-            "name": "Jawbreaker",
-            "productTypeId": 2
-        },
-        {
-            "id": 6,
-            "name": "Jolly Rancher",
-            "productTypeId": 2
-        },
-        {
-            "id": 7,
-            "name": "Gummy Bears",
-            "productTypeId": 4
-        },
-        {
-            "id": 8,
-            "name": "Sour Worms",
-            "productTypeId": 4
-        }
-    ],
-    "productTypes": [
-        {
-            "id": 1,
-            "type": "chocolate"
-        },
-        {
-            "id": 2,
-            "type": "hard candy"
-        },
-        {
-            "id": 3,
-            "type": "licorice"
-        },
-        {
-            "id": 4,
-            "type": "gummy"
-        }
-    ],
-    "purchases": [
-        {
-            "id": 1,
-            "productId": 1,
-            "locationId": 2,
-            "employeeId": 3,
-            "customerId": 4
-        },
-        {
-            "id": 2,
-            "productId": 6,
-            "locationId": 1,
-            "employeeId": 7,
-            "customerId": 2
-        },
-        {
-            "id": 3,
-            "productId": 1,
-            "locationId": 4,
-            "employeeId": 3,
-            "customerId": 5
-        },
-        {
-            "id": 4,
-            "productId": 1,
-            "locationId": 3,
-            "employeeId": 5,
-            "customerId": 3
-        }
-    ]
+  "locations": [
+    {
+      "id": 1,
+      "address": "123 No Way",
+      "squareFootage": 950,
+      "handicapAccessible": true
+    },
+    {
+      "id": 2,
+      "address": "456 Yes Way",
+      "squareFootage": 650,
+      "handicapAccessible": false
+    },
+    {
+      "id": 3,
+      "address": "789 Go A Way",
+      "squareFootage": 700,
+      "handicapAccessible": true
+    },
+    {
+      "id": 4,
+      "address": "1011 Stay Lane",
+      "squareFootage": 1200,
+      "handicapAccessible": true
+    }
+  ],
+  "locationProducts": [
+    {
+      "id": 1,
+      "locationId": 1,
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "locationId": 1,
+      "productId": 8
+    },
+    {
+      "id": 3,
+      "locationId": 2,
+      "productId": 7
+    },
+    {
+      "id": 4,
+      "locationId": 3,
+      "productId": 2
+    },
+    {
+      "id": 5,
+      "locationId": 4,
+      "productId": 3
+    },
+    {
+      "id": 6,
+      "locationId": 4,
+      "productId": 6
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "fullName": "Bill Murray",
+      "locationId": 1,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 18
+    },
+    {
+      "id": 2,
+      "fullName": "Freddie Mercury",
+      "locationId": 4,
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": 12
+    },
+    {
+      "id": 3,
+      "fullName": "Michelle Obama",
+      "locationId": 2,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 18
+    },
+    {
+      "id": 4,
+      "fullName": "Toby Keith",
+      "locationId": 3,
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": 12
+    },
+    {
+      "id": 5,
+      "fullName": "Billie Ellish",
+      "locationId": 4,
+      "manager": false,
+      "fullTime": true,
+      "hourlyRate": 14.5
+    },
+    {
+      "id": 6,
+      "fullName": "Ricky Martin",
+      "locationId": 1,
+      "manager": false,
+      "fullTime": true,
+      "hourlyRate": 14.5
+    },
+    {
+      "fullName": "Mojo Jojo",
+      "locationId": 1,
+      "manager": "true",
+      "fullTime": true,
+      "hourlyRate": "17.50",
+      "id": 7
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "fullName": "Shrek",
+      "address": "35264 Prince Squares",
+      "email": "Tillman_Wintheiser26@yahoo.com"
+    },
+    {
+      "id": 2,
+      "fullName": "Donkey",
+      "address": "7504 Huel Forges",
+      "email": "Geovanni81@hotmail.com"
+    },
+    {
+      "id": 3,
+      "fullName": "Fiona",
+      "address": "87130 Cassin Freeway",
+      "email": "Elizabeth.OReilly79@yahoo.com"
+    },
+    {
+      "id": 4,
+      "fullName": "Lord Farquade",
+      "address": "3587 Jacobs Hills",
+      "email": "Nikolas_Christiansen@gmail.com"
+    },
+    {
+      "id": 5,
+      "fullName": "Gingerbread Man",
+      "address": "9601 Cody Drives",
+      "email": "Winfield14@gmail.com"
+    },
+    {
+      "name": "Britney Spears",
+      "address": "404 unknown dr",
+      "email": "britney@mail.com",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Milky Way",
+      "productTypeId": 1,
+      "price": 0.99
+    },
+    {
+      "id": 2,
+      "name": "Snickers",
+      "productTypeId": 1,
+      "price": 0.99
+    },
+    {
+      "id": 3,
+      "name": "Rolo",
+      "productTypeId": 1,
+      "price": 0.79
+    },
+    {
+      "id": 4,
+      "name": "Twizzler",
+      "productTypeId": 3,
+      "price": 2.99
+    },
+    {
+      "id": 5,
+      "name": "Jawbreaker",
+      "productTypeId": 2,
+      "price": 0.5
+    },
+    {
+      "id": 6,
+      "name": "Jolly Rancher",
+      "productTypeId": 2,
+      "price": 0.75
+    },
+    {
+      "id": 7,
+      "name": "Gummy Bears",
+      "productTypeId": 4,
+      "price": 3.5
+    },
+    {
+      "id": 8,
+      "name": "Sour Worms",
+      "productTypeId": 4,
+      "price": 2.99
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "chocolate"
+    },
+    {
+      "id": 2,
+      "type": "hard candy"
+    },
+    {
+      "id": 3,
+      "type": "licorice"
+    },
+    {
+      "id": 4,
+      "type": "gummy"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "productId": 1,
+      "locationId": 2,
+      "employeeId": 3,
+      "customerId": 4
+    },
+    {
+      "id": 2,
+      "productId": 6,
+      "locationId": 1,
+      "employeeId": 7,
+      "customerId": 2
+    },
+    {
+      "id": 3,
+      "productId": 1,
+      "locationId": 4,
+      "employeeId": 3,
+      "customerId": 5
+    },
+    {
+      "id": 4,
+      "productId": 1,
+      "locationId": 3,
+      "employeeId": 5,
+      "customerId": 3
+    }
+  ]
 }
